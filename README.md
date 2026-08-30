@@ -1,41 +1,18 @@
 # BITS MBA ZG582 – Assignment 2 / Phase 2
 ## Telecom Customer Churn Prediction
 
-This repository is ready to upload to GitHub and run in Google Colab/Jupyter. It implements the Phase-2 requirements: preprocessing, feature engineering, Logistic Regression, Random Forest, Gradient Boosting, hyperparameter tuning, evaluation, model comparison, feature importance and business risk scoring.
-
-### 1. Quickest method – Google Colab
-1. Open Google Colab.
-2. Upload `main.py` and `requirements.txt` from this folder.
-3. Run:
-```bash
-!pip install -r requirements.txt
-!python main.py
-```
-4. The script automatically downloads the IBM Telco Customer Churn CSV if it is not already in `data/`.
-5. Open the `outputs/` folder to see the model comparison, tuning results, confusion matrix, ROC curve, precision-recall curve, feature importance and customer risk scores.
-
-### 2. Run locally
-```bash
-pip install -r requirements.txt
-python main.py
-```
-
-### 3. Dataset
-The code uses the IBM public GitHub copy of the Telco Customer Churn dataset:
-https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv
-
-### 4. GitHub upload steps
+### 1. GitHub upload steps
 ```bash
 git init
 git add .
-git commit -m "BITS MBA ZG582 Assignment 2 Phase 2 - Churn Prediction"
+git commit -m "2024bc26537_VarunGrover_AppliedMLnDL_Assignment2"
 git branch -M main
-git remote add origin https://github.com/<USERNAME>/BITS-MBA-ZG582-Telco-Churn-Phase2.git
+git remote add origin (https://github.com/Varun-Grover-94/2024bc26537_VarunGrover_AppliedMLnDL_Assignment2)
 git push -u origin main
 ```
 Then paste the final repository URL into the assignment report.
 
-### 5. Main outputs
+### 2. Main outputs
 - `outputs/model_comparison.csv` – Accuracy, Precision, Recall, F1, ROC-AUC and PR-AUC.
 - `outputs/tuning_results.csv` – best parameters and cross-validation ROC-AUC.
 - `outputs/confusion_matrix.png` – final model classification errors.
